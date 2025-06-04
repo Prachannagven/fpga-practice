@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/mac_fpga.v",
+  "InstLine" : 1,
+  "InstName" : "shift_registers",
+  "ModuleFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/mac_fpga.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "shift_registers",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/mac_fpga.v",
+    "InstLine" : 35,
+    "InstName" : "a",
+    "ModuleFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/sipo.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "sipo"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/mac_fpga.v",
+    "InstLine" : 42,
+    "InstName" : "b",
+    "ModuleFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/sipo.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "sipo"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/mac_fpga.v",
+    "InstLine" : 50,
+    "InstName" : "c",
+    "ModuleFile" : "C:/Users/prana/Desktop/FPGA/shift_registers/src/pipo.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "pipo"
+   }
+  ]
+ }
+]

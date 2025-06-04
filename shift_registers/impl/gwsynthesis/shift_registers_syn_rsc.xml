@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="shift_registers" Lut="2" MULTADDALU18X18="1" T_Register="12(0)" T_Lut="9(2)" T_MULTADDALU18X18="1(1)">
+ <SubModule name="a" Register="3" Lut="1" T_Register="3(3)" T_Lut="1(1)"/>
+ <SubModule name="b" Register="3" T_Register="3(3)"/>
+ <SubModule name="c" Register="6" Lut="6" T_Register="6(6)" T_Lut="6(6)"/>
+</Module>
