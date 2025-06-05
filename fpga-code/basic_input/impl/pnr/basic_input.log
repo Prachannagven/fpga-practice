@@ -1,7 +1,7 @@
-Reading netlist file: "C:\Users\prana\Desktop\FPGA\basic_input\impl\gwsynthesis\basic_input.vg"
-Parsing netlist file "C:\Users\prana\Desktop\FPGA\basic_input\impl\gwsynthesis\basic_input.vg" completed
+Reading netlist file: "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\gwsynthesis\basic_input.vg"
+Parsing netlist file "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\gwsynthesis\basic_input.vg" completed
 Processing netlist completed
-Reading constraint file: "C:\Users\prana\Desktop\FPGA\basic_input\src\basic_input.cst"
+Reading constraint file: "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\src\basic_input.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -21,10 +21,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "C:\Users\prana\Desktop\FPGA\basic_input\impl\pnr\basic_input.power.html" completed
-Generate file "C:\Users\prana\Desktop\FPGA\basic_input\impl\pnr\basic_input.pin.html" completed
-Generate file "C:\Users\prana\Desktop\FPGA\basic_input\impl\pnr\basic_input.rpt.html" completed
-Generate file "C:\Users\prana\Desktop\FPGA\basic_input\impl\pnr\basic_input.rpt.txt" completed
-Generate file "C:\Users\prana\Desktop\FPGA\basic_input\impl\pnr\basic_input.tr.html" completed
-Wed Jun  4 00:04:16 2025
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\pnr\basic_input.power.html" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\pnr\basic_input.pin.html" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\pnr\basic_input.rpt.html" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\pnr\basic_input.rpt.txt" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\pnr\basic_input.tr.html" completed
+Wed Jun  4 16:05:49 2025
 

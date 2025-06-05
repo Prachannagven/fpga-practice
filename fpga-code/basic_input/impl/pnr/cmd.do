@@ -1,8 +1,8 @@
--d C:\Users\prana\Desktop\FPGA\basic_input\impl\gwsynthesis\basic_input.vg
+-d C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\gwsynthesis\basic_input.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst C:\Users\prana\Desktop\FPGA\basic_input\src\basic_input.cst
--cfg C:\Users\prana\Desktop\FPGA\basic_input\impl\pnr\device.cfg
+-cst C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\src\basic_input.cst
+-cfg C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\pnr\device.cfg
 -bit
 -tr
 -ph

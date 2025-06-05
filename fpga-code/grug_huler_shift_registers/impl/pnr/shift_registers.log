@@ -1,7 +1,7 @@
-Reading netlist file: "C:\Users\prana\Desktop\FPGA\shift_registers\impl\gwsynthesis\shift_registers.vg"
-Parsing netlist file "C:\Users\prana\Desktop\FPGA\shift_registers\impl\gwsynthesis\shift_registers.vg" completed
+Reading netlist file: "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\gwsynthesis\shift_registers.vg"
+Parsing netlist file "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\gwsynthesis\shift_registers.vg" completed
 Processing netlist completed
-Reading constraint file: "C:\Users\prana\Desktop\FPGA\shift_registers\src\shift_registers.cst"
+Reading constraint file: "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\src\shift_registers.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -22,10 +22,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "C:\Users\prana\Desktop\FPGA\shift_registers\impl\pnr\shift_registers.power.html" completed
-Generate file "C:\Users\prana\Desktop\FPGA\shift_registers\impl\pnr\shift_registers.pin.html" completed
-Generate file "C:\Users\prana\Desktop\FPGA\shift_registers\impl\pnr\shift_registers.rpt.html" completed
-Generate file "C:\Users\prana\Desktop\FPGA\shift_registers\impl\pnr\shift_registers.rpt.txt" completed
-Generate file "C:\Users\prana\Desktop\FPGA\shift_registers\impl\pnr\shift_registers.tr.html" completed
-Tue Jun  3 18:16:54 2025
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\pnr\shift_registers.power.html" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\pnr\shift_registers.pin.html" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\pnr\shift_registers.rpt.html" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\pnr\shift_registers.rpt.txt" completed
+Generate file "C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\pnr\shift_registers.tr.html" completed
+Wed Jun  4 10:13:14 2025
 

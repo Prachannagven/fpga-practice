@@ -1,17 +1,17 @@
 [
  {
-  "InstFile" : "C:/Users/prana/Desktop/FPGA/basic_input/src/main.v",
+  "InstFile" : "C:/Users/prana/Desktop/FPGA/fpga-code/basic_input/src/main.v",
   "InstLine" : 2,
   "InstName" : "main",
-  "ModuleFile" : "C:/Users/prana/Desktop/FPGA/basic_input/src/main.v",
+  "ModuleFile" : "C:/Users/prana/Desktop/FPGA/fpga-code/basic_input/src/main.v",
   "ModuleLine" : 2,
   "ModuleName" : "main",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/prana/Desktop/FPGA/basic_input/src/main.v",
-    "InstLine" : 10,
+    "InstFile" : "C:/Users/prana/Desktop/FPGA/fpga-code/basic_input/src/main.v",
+    "InstLine" : 16,
     "InstName" : "a",
-    "ModuleFile" : "C:/Users/prana/Desktop/FPGA/basic_input/src/sipo.v",
+    "ModuleFile" : "C:/Users/prana/Desktop/FPGA/fpga-code/basic_input/src/sipo.v",
     "ModuleLine" : 4,
     "ModuleName" : "sipo"
    }

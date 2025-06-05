@@ -4,14 +4,14 @@
     <Version>beta</Version>
     <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
     <FileList>
-        <File path="C:\Users\prana\Desktop\FPGA\basic_input\src\main.v" type="verilog"/>
-        <File path="C:\Users\prana\Desktop\FPGA\basic_input\src\sipo.v" type="verilog"/>
+        <File path="C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\src\main.v" type="verilog"/>
+        <File path="C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\src\sipo.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="global_freq" value="50.000"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="C:\Users\prana\Desktop\FPGA\basic_input\impl\gwsynthesis\basic_input.vg"/>
+        <Option type="output_file" value="C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\gwsynthesis\basic_input.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="0"/>
         <Option type="vcc" value="1.2"/>

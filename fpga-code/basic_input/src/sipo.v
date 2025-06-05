@@ -5,6 +5,7 @@ module sipo #(parameter WIDTH=6)
    (
     input wire clk,
     input wire rst,
+    input wire en,
     input wire s_in,
     output reg [WIDTH-1:0] p_out
    );
@@ -12,6 +13,6 @@ module sipo #(parameter WIDTH=6)
     always @(posedge clk)
         if (rst)
             p_out <= 0;
-        else
+        else if(en)
             p_out <= {s_in, p_out[WIDTH-1:1]};
 endmodule

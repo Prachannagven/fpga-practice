@@ -1,8 +1,8 @@
--d C:\Users\prana\Desktop\FPGA\shift_registers\impl\gwsynthesis\shift_registers.vg
+-d C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\gwsynthesis\shift_registers.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst C:\Users\prana\Desktop\FPGA\shift_registers\src\shift_registers.cst
--cfg C:\Users\prana\Desktop\FPGA\shift_registers\impl\pnr\device.cfg
+-cst C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\src\shift_registers.cst
+-cfg C:\Users\prana\Desktop\FPGA\fpga-code\grug_huler_shift_registers\impl\pnr\device.cfg
 -bit
 -tr
 -ph

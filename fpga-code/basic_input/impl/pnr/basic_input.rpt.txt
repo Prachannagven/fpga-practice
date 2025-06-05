@@ -5,34 +5,34 @@
 1. PnR Messages
 
   <Report Title>: PnR Report
-  <Design File>: C:\Users\prana\Desktop\FPGA\basic_input\impl\gwsynthesis\basic_input.vg
-  <Physical Constraints File>: C:\Users\prana\Desktop\FPGA\basic_input\src\basic_input.cst
+  <Design File>: C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\impl\gwsynthesis\basic_input.vg
+  <Physical Constraints File>: C:\Users\prana\Desktop\FPGA\fpga-code\basic_input\src\basic_input.cst
   <Timing Constraints File>: ---
   <Tool Version>: V1.9.11.01 Education (64-bit)
   <Part Number>: GW1NR-LV9QN88PC6/I5
   <Device>: GW1NR-9
   <Device Version>: C
-  <Created Time>:Wed Jun  4 00:04:16 2025
+  <Created Time>:Wed Jun  4 16:05:49 2025
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 0.002s, Elapsed time = 0h 0m 0.002s
-    Placement Phase 1: CPU time = 0h 0m 0.077s, Elapsed time = 0h 0m 0.077s
-    Placement Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Placement Phase 3: CPU time = 0h 0m 0.797s, Elapsed time = 0h 0m 0.798s
-    Total Placement: CPU time = 0h 0m 0.876s, Elapsed time = 0h 0m 0.877s
+    Placement Phase 0: CPU time = 0h 0m 0.016s, Elapsed time = 0h 0m 0.016s
+    Placement Phase 1: CPU time = 0h 0m 0.068s, Elapsed time = 0h 0m 0.068s
+    Placement Phase 2: CPU time = 0h 0m 0.002s, Elapsed time = 0h 0m 0.002s
+    Placement Phase 3: CPU time = 0h 0m 0.636s, Elapsed time = 0h 0m 0.636s
+    Total Placement: CPU time = 0h 0m 0.722s, Elapsed time = 0h 0m 0.722s
  Running routing:
-    Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Routing Phase 1: CPU time = 0h 0m 0.131s, Elapsed time = 0h 0m 0.131s
-    Routing Phase 2: CPU time = 0h 0m 0.038s, Elapsed time = 0h 0m 0.038s
+    Routing Phase 0: CPU time = 0h 0m 0.001s, Elapsed time = 0h 0m 0s
+    Routing Phase 1: CPU time = 0h 0m 0.129s, Elapsed time = 0h 0m 0.129s
+    Routing Phase 2: CPU time = 0h 0m 0.037s, Elapsed time = 0h 0m 0.038s
     Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Total Routing: CPU time = 0h 0m 0.169s, Elapsed time = 0h 0m 0.169s
+    Total Routing: CPU time = 0h 0m 0.167s, Elapsed time = 0h 0m 0.167s
  Generate output files:
-    CPU time = 0h 0m 0.783s, Elapsed time = 0h 0m 0.783s
+    CPU time = 0h 0m 0.634s, Elapsed time = 0h 0m 0.634s
 
- Total Time and Memory Usage: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 307MB
+ Total Time and Memory Usage: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 238MB
 
 
 3. Resource Usage Summary
@@ -40,18 +40,18 @@
   --------------------------------------------------------------------------------
   Resources                   | Usage                               | Utilization
   --------------------------------------------------------------------------------
-  Logic                       | 6/8640                              |  <1%
-    --LUT,ALU,ROM16           | 6(6 LUT, 0 ALU, 0 ROM16)            | -
+  Logic                       | 8/8640                              |  <1%
+    --LUT,ALU,ROM16           | 8(8 LUT, 0 ALU, 0 ROM16)            | -
     --SSRAM(RAM16)            | 0                                   | -
   Register                    | 6/6693                              |  <1%
     --Logic Register as Latch | 0/6480                              |  0%
     --Logic Register as FF    | 5/6480                              |  <1%
     --I/O Register as Latch   | 0/213                               |  0%
     --I/O Register as FF      | 1/213                               |  <1%
-  CLS                         | 7/4320                              |  <1%
-  I/O Port                    | 9/71                                |  13%
-  I/O Buf                     | 9                                   | -
-    --Input Buf               | 3                                   | -
+  CLS                         | 8/4320                              |  <1%
+  I/O Port                    | 10/71                               |  15%
+  I/O Buf                     | 10                                  | -
+    --Input Buf               | 4                                   | -
     --Output Buf              | 6                                   | -
     --Inout Buf               | 0                                   | -
   ================================================================================
@@ -63,8 +63,8 @@
   --------------------------------------
   I/O Bank  | Usage       | Utilization 
   --------------------------------------
-  bank 1   | 1/25        | 4%          
-  bank 2   | 2/23        | 9%          
+  bank 1   | 0/25        | 0%          
+  bank 2   | 4/23        | 18%         
   bank 3   | 6/23        | 27%         
   ======================================
 
@@ -85,7 +85,7 @@
   -------------------------------------------
   Signal         | Global Clock   | Location
   -------------------------------------------
-  clock_d        | PRIMARY        |  BL
+  clock_d        | PRIMARY        |  BR BL
   ===========================================
 
 
@@ -95,8 +95,9 @@
 Port Name  | Diff Pair | Loc./Bank     | Constraint | Dir.  | Site     | CFG             | IO Type    | Drive | Pull Mode | PCI Clamp | Hysteresis | Open Drain | Vref       | Single Resistor | Diff Resistor | BankVccio 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 clock      | -         | 35/2          | Y          | in    | IOB29[A] | GCLKT_4         | LVCMOS18   | NA    | NONE      | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8       
-reset      | -         | 49/1          | Y          | in    | IOR24[A] | -               | LVCMOS18   | NA    | NONE      | ON        | NONE       | NA         | NA         | OFF             | NA            | 1.8       
-state      | -         | 31/2          | Y          | in    | IOB15[A] | -               | LVCMOS18   | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8       
+cmd[0]     | -         | 42/2          | Y          | in    | IOB41[B] | -               | LVCMOS18   | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8       
+cmd[1]     | -         | 41/2          | Y          | in    | IOB41[A] | -               | LVCMOS18   | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8       
+d_in       | -         | 40/2          | Y          | in    | IOB33[B] | -               | LVCMOS18   | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8       
 led[0]     | -         | 10/3          | Y          | out   | IOL15[A] | GCLKT_6         | LVCMOS18   | 8     | UP        | NA        | NA         | OFF        | NA         | OFF             | NA            | 1.8       
 led[1]     | -         | 11/3          | Y          | out   | IOL16[B] | -               | LVCMOS18   | 8     | UP        | NA        | NA         | OFF        | NA         | OFF             | NA            | 1.8       
 led[2]     | -         | 13/3          | Y          | out   | IOL21[B] | -               | LVCMOS18   | 8     | UP        | NA        | NA         | OFF        | NA         | OFF             | NA            | 1.8       
@@ -145,7 +146,7 @@ Loc./Bank| Signal  | Dir.  | Site     | CFG             | IO Type  | Drive | Pul
 28/2     | -       | in    | IOB11[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 29/2     | -       | in    | IOB13[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 30/2     | -       | in    | IOB13[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
-31/2     | state   | in    | IOB15[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
+31/2     | -       | in    | IOB15[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 32/2     | -       | in    | IOB15[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 33/2     | -       | in    | IOB23[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 34/2     | -       | in    | IOB23[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
@@ -154,9 +155,9 @@ Loc./Bank| Signal  | Dir.  | Site     | CFG             | IO Type  | Drive | Pul
 37/2     | -       | in    | IOB31[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 38/2     | -       | in    | IOB31[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 39/2     | -       | in    | IOB33[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
-40/2     | -       | in    | IOB33[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
-41/2     | -       | in    | IOB41[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
-42/2     | -       | in    | IOB41[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
+40/2     | d_in    | in    | IOB33[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
+41/2     | cmd[1]  | in    | IOB41[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
+42/2     | cmd[0]  | in    | IOB41[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 47/2     | -       | in    | IOB43[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 p1-14/3  | -       | in    | IOL2[A]  | -               | LVCMOS18 | -     | UP        | -         | -          | -          | -          | -               | -             | -    
@@ -211,7 +212,7 @@ p2-2/3   | -       | in    | IOL27[B] | -               | LVCMOS18 | -     | UP 
 52/1     | -       | in    | IOR17[A] | GCLKT_3         | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 51/1     | -       | in    | IOR17[B] | GCLKC_3         | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 50/1     | -       | in    | IOR22[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
-49/1     | reset   | in    | IOR24[A] | -               | LVCMOS18 | NA    | NONE      | ON        | NONE       | NA         | NA         | OFF             | NA            | 1.8  
+49/1     | -       | in    | IOR24[A] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 48/1     | -       | in    | IOR24[B] | -               | LVCMOS18 | NA    | UP        | ON        | NONE       | NA         | NA         | NA              | NA            | 1.8  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ====================================================================================================================================================================================
