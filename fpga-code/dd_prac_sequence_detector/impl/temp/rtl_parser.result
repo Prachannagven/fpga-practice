@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/T_FF.v",
+  "InstLine" : 1,
+  "InstName" : "T_FF",
+  "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/T_FF.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "T_FF"
+ },
+ {
+  "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/main.v",
+    "InstLine" : 21,
+    "InstName" : "FF_A",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/D_FF.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "D_FF"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/main.v",
+    "InstLine" : 29,
+    "InstName" : "FF_B",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd_prac_sequence_detector/src/D_FF.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "D_FF"
+   }
+  ]
+ }
+]

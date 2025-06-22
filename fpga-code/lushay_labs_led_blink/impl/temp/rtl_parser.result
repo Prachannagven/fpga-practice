@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/lushay_labs_led_blink/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/lushay_labs_led_blink/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/lushay_labs_led_blink/src/main.v",
+    "InstLine" : 11,
+    "InstName" : "div_10Hz",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/lushay_labs_led_blink/src/clk_maker.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "clock_divider"
+   }
+  ]
+ }
+]

@@ -1,0 +1,108 @@
+[
+ {
+  "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 20,
+    "InstName" : "osc",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_osc/gowin_osc.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 24,
+    "InstName" : "pll",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 29,
+    "InstName" : "clkDiv1",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 34,
+    "InstName" : "clkDiv2",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 39,
+    "InstName" : "clkDiv3",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 44,
+    "InstName" : "clkDiv4",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 49,
+    "InstName" : "clkDiv5",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 54,
+    "InstName" : "clkDiv6",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 59,
+    "InstName" : "clkDiv7",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 75,
+    "InstName" : "Q1",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/jk_flipflop.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "jk_flipflop"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 84,
+    "InstName" : "Q2",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/jk_flipflop.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "jk_flipflop"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+    "InstLine" : 93,
+    "InstName" : "Q3",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/jk_flipflop.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "jk_flipflop"
+   }
+  ]
+ }
+]

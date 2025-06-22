@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="main" Lut="4" T_Register="3(0)" T_Lut="6(4)">
+ <SubModule name="osc"/>
+ <SubModule name="pll"/>
+ <SubModule name="clkDiv1"/>
+ <SubModule name="clkDiv2"/>
+ <SubModule name="clkDiv3"/>
+ <SubModule name="clkDiv4"/>
+ <SubModule name="clkDiv5"/>
+ <SubModule name="clkDiv6"/>
+ <SubModule name="clkDiv7"/>
+ <SubModule name="QA_ff" Register="1" Lut="1" T_Register="1(1)" T_Lut="1(1)"/>
+ <SubModule name="QB_ff" Register="1" T_Register="1(1)"/>
+ <SubModule name="QC_ff" Register="1" Lut="1" T_Register="1(1)" T_Lut="1(1)"/>
+</Module>

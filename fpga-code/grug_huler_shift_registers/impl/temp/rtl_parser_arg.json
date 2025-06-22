@@ -2,15 +2,15 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "C:/Users/prana/Desktop/FPGA/fpga-code/grug_huler_shift_registers/src/mac_fpga.v",
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_shift_registers/src/mac_fpga.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/prana/Desktop/FPGA/fpga-code/grug_huler_shift_registers/src/pipo.v",
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_shift_registers/src/pipo.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/prana/Desktop/FPGA/fpga-code/grug_huler_shift_registers/src/sipo.v",
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_shift_registers/src/sipo.v",
    "Type" : "verilog"
   }
  ],
@@ -18,7 +18,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/prana/Desktop/FPGA/fpga-code/grug_huler_shift_registers/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_shift_registers/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

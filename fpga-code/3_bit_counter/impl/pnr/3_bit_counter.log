@@ -1,0 +1,40 @@
+Reading netlist file: "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\impl\gwsynthesis\3_bit_counter.vg"
+Parsing netlist file "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\impl\gwsynthesis\3_bit_counter.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\src\3_bit_counter.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'led_d_2[5]' was determined to be a clock but was not created.
+WARN  (TA1132) :  'led_d_3[4]' was determined to be a clock but was not created.
+WARN  (TA1118) : the clock "osc/osc_inst/OSCOUT.default_clk"'s frequency does not match pll/rpll_inst's param "FCLKIN = "3.125""
+WARN  (TA1132) :  'clkDiv1/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clkDiv2/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clkDiv3/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clkDiv4/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clkDiv5/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clkDiv6/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1132) :  'clkDiv7/clkdiv_inst/CLKOUT.default_gen_clk' was determined to be a clock but was not created.
+WARN  (TA1117) : Can't calculate clocks' relationship between: "led_d_2[5]" and "clkDiv7/clkdiv_inst/CLKOUT.default_gen_clk"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\impl\pnr\3_bit_counter.power.html" completed
+Generate file "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\impl\pnr\3_bit_counter.pin.html" completed
+Generate file "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\impl\pnr\3_bit_counter.rpt.html" completed
+Generate file "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\impl\pnr\3_bit_counter.rpt.txt" completed
+Generate file "C:\Users\prana\Desktop\4-Personal_Projects\FPGA\fpga-code\3_bit_counter\impl\pnr\3_bit_counter.tr.html" completed
+Sat Jun  7 18:55:13 2025
+

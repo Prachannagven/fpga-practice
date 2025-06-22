@@ -1,0 +1,32 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="sys_clk" trig_type="0" capture_amount="1024" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="PinCounter">
+        <SignalList>
+            <Bus capture_enable="true" name="counter[15:0]">
+                <Signal>counter[15]</Signal>
+                <Signal>counter[14]</Signal>
+                <Signal>counter[13]</Signal>
+                <Signal>counter[12]</Signal>
+                <Signal>counter[11]</Signal>
+                <Signal>counter[10]</Signal>
+                <Signal>counter[9]</Signal>
+                <Signal>counter[8]</Signal>
+                <Signal>counter[7]</Signal>
+                <Signal>counter[6]</Signal>
+                <Signal>counter[5]</Signal>
+                <Signal>counter[4]</Signal>
+                <Signal>counter[3]</Signal>
+                <Signal>counter[2]</Signal>
+                <Signal>counter[1]</Signal>
+                <Signal>counter[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">sys_clk</Signal>
+            <Signal capture_enable="true">sys_rst_n</Signal>
+            <Signal capture_enable="true">pin_84</Signal>
+            <Signal capture_enable="true">prev_sys_rst_n</Signal>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>0100011000000001</GAO_ID>
+</GAO_CONFIG>

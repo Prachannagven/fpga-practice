@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="PinCounter" Register="17" Alu="15" Lut="2" T_Register="189(17)" T_Alu="15(15)" T_Lut="179(2)" T_Bsram="2(0)">
+ <SubModule name="gw_gao_inst_0" Register="172" Lut="177" Bsram="2" T_Register="172(172)" T_Lut="177(177)" T_Bsram="2(2)"/>
+</Module>

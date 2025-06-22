@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="main" Lut="8" T_Register="2(0)" T_Lut="9(8)">
+ <SubModule name="FF_A" Register="1" Lut="1" T_Register="1(1)" T_Lut="1(1)"/>
+ <SubModule name="FF_B" Register="1" T_Register="1(1)"/>
+</Module>

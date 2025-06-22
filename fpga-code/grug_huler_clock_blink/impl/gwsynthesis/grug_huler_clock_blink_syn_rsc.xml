@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="main">
+ <SubModule name="osc"/>
+ <SubModule name="pll"/>
+ <SubModule name="clkDiv1"/>
+ <SubModule name="clkDiv2"/>
+ <SubModule name="clkDiv3"/>
+ <SubModule name="clkDiv4"/>
+ <SubModule name="clkDiv5"/>
+ <SubModule name="clkDiv6"/>
+ <SubModule name="clkDiv7"/>
+</Module>

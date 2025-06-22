@@ -1,0 +1,84 @@
+[
+ {
+  "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 26,
+    "InstName" : "osc",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_osc/gowin_osc.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 30,
+    "InstName" : "pll",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 36,
+    "InstName" : "clkDiv1",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 43,
+    "InstName" : "clkDiv2",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 50,
+    "InstName" : "clkDiv3",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 57,
+    "InstName" : "clkDiv4",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 64,
+    "InstName" : "clkDiv5",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 71,
+    "InstName" : "clkDiv6",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/main.v",
+    "InstLine" : 78,
+    "InstName" : "clkDiv7",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/grug_huler_clock_blink/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   }
+  ]
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_osc/gowin_osc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/jk_flipflop.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/src/main.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/3_bit_counter/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

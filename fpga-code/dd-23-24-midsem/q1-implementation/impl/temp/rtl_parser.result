@@ -1,0 +1,116 @@
+[
+ {
+  "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 19,
+    "InstName" : "osc",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_osc/gowin_osc.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 23,
+    "InstName" : "pll",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 28,
+    "InstName" : "clkDiv1",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 33,
+    "InstName" : "clkDiv2",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 38,
+    "InstName" : "clkDiv3",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 43,
+    "InstName" : "clkDiv4",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 48,
+    "InstName" : "clkDiv5",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 53,
+    "InstName" : "clkDiv6",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 58,
+    "InstName" : "clkDiv7",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 76,
+    "InstName" : "mux1",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/mux_4ip.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4ip"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 84,
+    "InstName" : "QA_ff",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/jk_flipflop.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "jk_flipflop"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 93,
+    "InstName" : "QB_ff",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/jk_flipflop.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "jk_flipflop"
+   },
+   {
+    "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/main.v",
+    "InstLine" : 102,
+    "InstName" : "QC_ff",
+    "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA/fpga-code/dd-23-24-midsem/q1-implementation/src/t_flipflop.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "t_flipflop"
+   }
+  ]
+ }
+]

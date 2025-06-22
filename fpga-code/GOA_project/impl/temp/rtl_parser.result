@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA-projects/FPGA/fpga-code/GOA_project/src/foo.v",
+  "InstLine" : 1,
+  "InstName" : "PinCounter",
+  "ModuleFile" : "C:/Users/prana/Desktop/4-Personal_Projects/FPGA-projects/FPGA/fpga-code/GOA_project/src/foo.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "PinCounter"
+ }
+]
